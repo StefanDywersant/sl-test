@@ -94,3 +94,5 @@ definitions:
           - sold
     xml:
       name: Pet
+info:
+  title: "I'm a goat, bleeeeeet!"
