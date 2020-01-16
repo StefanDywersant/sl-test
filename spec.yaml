@@ -4,7 +4,7 @@ paths:
     get:
       tags:
         - pet
-      summary: Finds Pets by this and that
+      summary: Easy peasy lemon squeezy
       description: Multiple status values can be provided with comma separated strings
       operationId: findPetsByStatus
       produces:
