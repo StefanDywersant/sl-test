@@ -29,7 +29,7 @@ paths:
           schema:
             type: array
             items:
-              $ref: 'models.yaml#/definitions/Pet'
+              $ref: 'http://stoplight.stoplight-local.com:8080/api/v1/projects/stoplight/sl-test-2/nodes/spec.yaml/definitions/Pet'
         '400':
           description: Invalid status value
       security:
@@ -56,7 +56,7 @@ paths:
         '200':
           description: successful operation
           schema:
-            $ref: 'models.yaml#/definitions/Pet'
+            $ref: 'http://stoplight.stoplight-local.com:8080/api/v1/projects/stoplight/sl-test-2/nodes/spec.yaml/definitions/Pet'
         '400':
           description: Invalid ID supplied
         '404':
