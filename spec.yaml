@@ -29,7 +29,7 @@ paths:
           schema:
             type: array
             items:
-              $ref: 'http://stoplight.stoplight-local.com:8080/api/v1/projects/stoplight/sl-test/nodes/spec.yaml/definitions/Category'
+              $ref: 'http://stoplight.stoplight-local.com:8080/api/v1/projects/stoplight/sl-test/nodes/spec.yaml/definitions/Pet'
         '400':
           description: Invalid status value
       security:
