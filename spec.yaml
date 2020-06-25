@@ -37,4 +37,5 @@ paths:
             - 'write:pets'
             - 'read:pets'
 info:
-  title: 'I''m a goat, bleeeet!'
+  title: Petstore
+  description: ''
