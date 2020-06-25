@@ -1,3 +1,3 @@
-# art-b
+# beton
 
 The beginning of an awesome article...
