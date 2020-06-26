@@ -1,3 +1,0 @@
-# art-a
-
-The beginning of an awesome article...
