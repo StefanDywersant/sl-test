@@ -39,3 +39,12 @@ paths:
 info:
   title: Petstore
   description: ''
+definitions:
+  Karol:
+    title: Karol
+    type: object
+    properties:
+      id:
+        type: string
+      greatness_level:
+        type: string
