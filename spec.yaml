@@ -1,5 +1,11 @@
 swagger: '2.0'
 paths:
+  /some:
+    get:
+      description: Test
+      responses:
+        '200':
+          description: Success
   /pet/findByStatus:
     get:
       tags:
@@ -29,7 +35,7 @@ paths:
           schema:
             type: array
             items:
-              $ref: '#/definitions/Karol'
+              $ref: '#//paths/some/{x}'
         '400':
           description: Invalid status value
       security:
